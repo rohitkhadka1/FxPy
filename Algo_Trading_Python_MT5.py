@@ -14,8 +14,10 @@ servidor = "Exness-MT5Trial5"
 mt5.initialize(login = login, password = password, server = servidor, path = path)
 print("Login Successful")
 
+
 rates = mt5.copy_rates_from_pos("EURUSD", mt5.TIMEFRAME_M5, 0 , 864)
 rates_frame = pd.DataFrame(rates)
+
 
 print(rates)
 print(type(rates))
