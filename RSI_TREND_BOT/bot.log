@@ -1,0 +1,16 @@
+2025-07-20 09:10:51,683 - ERROR - Failed to connect to MetaTrader account!
+2025-07-20 09:10:51,684 - ERROR - Failed to initialize MT5. Exiting.
+2025-07-20 09:13:15,652 - ERROR - Failed to connect to MetaTrader account!
+2025-07-20 09:13:15,652 - ERROR - Failed to initialize MT5. Exiting.
+2025-07-20 09:17:05,269 - INFO - MT5 initialized successfully. Connected to account 76848203
+2025-07-20 09:17:05,269 - INFO - Starting RSI Trend Bot for BTCUSDm
+2025-07-20 09:17:05,269 - INFO - RSI Period: 14, Oversold: 30, Overbought: 70
+2025-07-20 09:17:05,269 - INFO - Risk: 20 pips, Lot size: 0.01
+2025-07-20 09:17:05,269 - INFO - Bot running... Press Ctrl+C to stop
+2025-07-20 09:17:05,301 - INFO - Price: 117998.98000, Previous RSI: 61.99, Current RSI: 58.12
+2025-07-20 09:17:05,302 - INFO - Generated signal: HOLD
+2025-07-20 09:17:05,302 - INFO - Current positions: 0
+2025-07-20 09:17:05,302 - INFO - Signal is HOLD - no trade executed
+2025-07-20 09:17:05,303 - INFO - Sleeping for 300 seconds...
+2025-07-20 09:17:27,512 - INFO - Bot stopped by user.
+2025-07-20 09:17:27,512 - INFO - MT5 shutdown complete.
