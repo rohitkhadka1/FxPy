@@ -554,12 +554,12 @@ def main():
     """Example of how to use the trading system"""
     
     # Your MT5 account credentials
-    ACCOUNT = os.environ.get("MT5_ACCOUNT")  # Your account number
-    PASSWORD = os.environ.get("MT5_PASSOWRD")  # Your password
+    ACCOUNT = int(os.environ.get("MT5_ACCOUNT"))  # Your account number
+    PASSWORD = os.environ.get("MT5_PASSWORD")  # Your password
     SERVER = os.environ.get("MT5_SERVER")  # Your broker's server
     
     # Symbols to trade
-    SYMBOLS = ["EURUSD", "GBPUSD", "USDJPY", "AUDUSD"]
+    SYMBOLS = ["EURUSDm", "GBPUSDm", "USDJPYm", "AUDUSDm"]
     
     # Initialize trader
     trader = MT5ChartPatternTrader(
